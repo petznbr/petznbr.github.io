@@ -34,11 +34,11 @@
 
       @media screen and (max-width: 1080px) {
         .header1 {
-          font-size: 3rem;
+          font-size: 2rem;
         }
     
       .header2 {
-          font-size: 2rem;
+          font-size: 1rem;
         }
         header {
           display: flex;
@@ -56,7 +56,7 @@
           color: white;
         }
         .navigation a {
-          font-size: 2rem;
+          font-size: 1rem;
           border-radius: 6px;
           margin: auto;
           background-color: darkgray;
@@ -78,15 +78,15 @@
         .container p{
           grid-area: main;
           text-align: center;
-          font-size: 2rem;
+          font-size: 1rem;
           line-height: 2rem;
         }
          h3 {
-          font-size: 2rem;
+          font-size: 1rem;
          }
          .Title label {
           font-weight: bolder;
-          font-size: 1.25rem;
+          font-size: 1rem;
          }
          .work li {
           font-size: .50rem;
