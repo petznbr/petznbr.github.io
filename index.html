@@ -2,28 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Welcome!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Brice Petznick</title>
 </head>
-<body class="container">
-    <header>
-        <h1 class="header1">Welcome!</h1>
-        <h2 class="header2">Brice Petznick</h2>
-        </header>
-            <ul class = 'navigation'>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Samples</a></li>
-                <li><a href="#">Contact</a></li>
+<body>
+  <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+    <div class="banner">
+        <h1>Welcome!</h1>
+        <div class="container">
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorMe" href="./resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorMe" href="Projects.html">Projects</a>
+              </li>
             </ul>
-          <img src="Images/20230305_143640.jpg">
-           <p>Hi there I'm Brice Petznick, a new web developer just getting started on my web 
-                development journey. I'm located in the Evanston, IL area; I'm putting together 
-                this website to not only advertise myself, but to also display my talents. If 
-                you want to know more about me, you can checkout my <a href="#">about me</a> 
-                page. If you have any questions or want to contact me you can check out my 
-                <a href="#">contact me</a> page.</p>
+      </div>
+    </div>
+    <div class="body">
+        <h2>Brice Petznick</h2>
+        <div class="main">
+          <p>Hi there I'm Brice Petznick, a new web developer just getting 
+            started on my web development journey. I'm located in the Evanston, 
+            IL area; I'm putting together this website to not only advertise myself, 
+            but to also display my talents. If you want to know more about me, you 
+            can checkout my Resume page. If you have any questions or want to contact
+             me you can check out my contact me page.<br>
+        <strong>I'm a Project Manager by day.</strong><br>
+        <strong>An aspiring programmer by night.</strong></p>
+          <img src="./images/20230305_143640.jpg" alt="a picture of me">
+      </div>
+    </div>
+    <footer>
+      <p>&copy Brice Petznick. All rights reserved.</p>
+  </footer>
 </body>
 </html>
