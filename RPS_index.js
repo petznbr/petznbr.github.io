@@ -2,8 +2,8 @@ imgOne = document.getElementsByClassName("img1")[0];
 imgTwo = document.getElementsByClassName("img2")[0];
 randomNumberOne = Math.floor(Math.random()*3)+1;
 randomNumberTwo = Math.floor(Math.random()*3)+1;
-randomImageOne = "images/"+randomNumberOne+".jpg";
-randomImageTwo = "images/"+randomNumberTwo+".jpg";
+randomImageOne = "Images/"+randomNumberOne+".jpg";
+randomImageTwo = "Images/"+randomNumberTwo+".jpg";
 imgOne.setAttribute('src',randomImageOne);
 imgTwo.setAttribute('src',randomImageTwo);
 
