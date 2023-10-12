@@ -37,6 +37,7 @@ body {
     font-size: 5rem;
     color: white;
 }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -95,6 +96,10 @@ strong {
 }
 
 @media (max-width: 600px) {
+    .banner > h1 {
+        font-size: 2rem;
+    }
+
     .banner {
         height: auto;
     }
