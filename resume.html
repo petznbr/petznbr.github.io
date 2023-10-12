@@ -10,21 +10,29 @@
 </head>
 <body>
     <div class="banner">
-        <h1>Welcome!</h1>
-        <div class="container">
-          <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link colorMe" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./resume.html">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link colorMe" href="Projects.html">Projects</a>
-              </li>
-            </ul>
+        <div class="logos">
+          <a href="https://github.com/petznbr"><img class="git" src="Images/github-mark-white.png" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/brice-petznick-89690150/"><img class="Linkedin" src="Images/LI-In-Bug.png" alt="Linkedin"></a>
+        </div>
+          <h1>Welcome!</h1>
+          <img src="Images/menu.png" class="menu" alt="Menu">
+          <div class="container">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link colorMe" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link colorMe active" href="./resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link colorMe" href="Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link colorMe " href="./contactme.html">Contact Me</a>
+                </li>
+              </ul>
+        </div>
       </div>
-    </div>
     <h2>Summary</h2>
     <p>I'm an up and comming web developer looking to relocate and start my new exciting carrer.</p>
     <h2>Education</h2>
@@ -33,33 +41,53 @@
         <li>Associate of Applied Science in IT-Computer Support, Northcentral Technical College (2008-2010)</li>
     </ul>
     <h2>Work Experiance</h2>
-    <h3>IT Project Manager, CH Ventures, LLC - Evanston, IL</h3>
+    <h3>IT Project Manager, CH Ventures, LLC - Evanston, IL 
+    <span class="tog1">
+        <img class="arrow" src="Images/1200px-Red_Arrow_Down.svg.png">
+        <img class="arrow down1" src="Images/Red_Arrow_Up.svg.png">
+    </span>
+    </h3>
     <p>February 2022 to Present</p>
-    <ul>
+    <ul class="job1" style="display: none">
         <li>Works on improving and updating data systems using Basic Plus and Open Insight.</li>
         <li>Using Bright Sign to update and create digital displays for a museum.</li>
         <li>Solving system problems of varying degrees using virtual machines and Active Directory.</li>
         <li>Setting up new user machines and accounts throughout the company.</li>
     </ul>
-    <h3>Guest Service coworker, Kwik-Trip – Medford, Wisconsin</h3>
+    <h3>Guest Service coworker, Kwik-Trip – Medford, Wisconsin 
+        <span class="tog2">
+            <img class="arrow" src="Images/1200px-Red_Arrow_Down.svg.png">
+            <img class="arrow down2" src="Images/Red_Arrow_Up.svg.png">
+        </span>
+    </h3>
     <p>August 2021 – February 2022</p>
-    <ul>
+    <ul class="job2">
         <li>Assisted dozens of clients by helping them find specific products daily by using excellent communication skills, resulting in higher client satisfaction.</li>
         <li>Checked guests out at the register and provided exceptional customer service, leading to an increase in NPS by 50%.</li>
         <li>Ensured all areas were stocked with proper inventory levels and had no stock-outs for two days in a row.</li>
     </ul>
-    <h3>General merchAndise support manager, walmart – Medford, Wisconsin</h3>
-    <p>July 2010 – febRuary 2021</p>
-    <ul>
+    <h3>General merchAndise support manager, walmart - Medford, Wisconsin 
+        <span class="tog3">
+            <img class="arrow" src="Images/1200px-Red_Arrow_Down.svg.png">
+            <img class="arrow down2" src="Images/Red_Arrow_Up.svg.png">
+        </span>
+    </h3>
+    <p>July 2010 – February 2021</p>
+    <ul class="job3">
         <li>Managed and led multiple departments throughout the store, earning "Employee of the Month" recognition for outstanding leadership and customer service (average customer survey scores increased by 50%).</li>
         <li>Assisted customers with technical questions and guided them through the appropriate channels to ensure quick resolution and satisfaction.</li>
         <li>Assisted in the connection center dealing with postpaid and prepaid phones, increasing overall productivity (reduced service calls per day by 20%).</li>
     </ul>
     <h2>Skills</h2>
-    <h3>Hard</h3>
-    <ul>
+    <h3>Hard 
+        <span class="tog4">
+            <img class="arrow" src="Images/1200px-Red_Arrow_Down.svg.png">
+            <img class="arrow down4" src="Images/Red_Arrow_Up.svg.png">
+        </span>
+    </h3>
+    <ul class="skills1">
         <li>Java</li>
-        <li>C++</li>
+        <li>C/C++</li>
         <li>Python</li>
         <li>SQL</li>
         <li>JavaScript</li>
@@ -75,14 +103,22 @@
         <li>HTML 5</li>
         <li>CSS</li>
         <li>XML</li>
-        <li></li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>APIs</li>
+        <li>React</li>
         <li>Kotlin</li>
         <li>MS Office</li>
         <li>Android Studio</li>
         <li>Azure DevOps</li>
     </ul>
-    <h3>Soft</h3>
-    <ul>
+    <h3>Soft 
+        <span class="tog5">
+            <img class="arrow" src="Images/1200px-Red_Arrow_Down.svg.png">
+            <img class="arrow down5" src="Images/Red_Arrow_Up.svg.png">
+        </span>
+    </h3>
+    <ul class="skills2">
         <li>Problem-solving</li>
         <li>Critical thinking</li>
         <li>Teamwork</li>
@@ -96,5 +132,7 @@
     <footer>
         <p>&copy Brice Petznick. All rights reserved.</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>
 </body>
 </html>
