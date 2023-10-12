@@ -177,7 +177,7 @@ footer {
   .gallery-item img {
     width: 100%;
     max-width: 50rem;
-    min-width: 10rem;
+    min-width: 20rem;
   }
   
   .img-title {
@@ -186,7 +186,8 @@ footer {
     margin: 0;
     height: 100%;
     width: 100%;
-    min-width: 10rem;
+    max-width: 50rem;
+    min-width: 20rem;
     text-align: center;
     display: none;
     background-color: #0e2431;
