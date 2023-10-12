@@ -11,7 +11,7 @@ p, li {
     color: #e8d5b7 !important;
 }
 
-h3 {
+h3, h5 {
     color: #fc3a52 !important;
 }
 
@@ -149,3 +149,57 @@ footer {
 .skills1, .skills2 {
     display: none;
 }
+
+.games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery {
+    width: 25em;
+    margin: 2em auto;
+  }
+  
+  .gallery-item {
+    height: auto;
+    width: 48.618784527%;
+    margin-bottom: 2em;
+    position: relative;
+  }
+  
+  .gallery-item:first-child {
+    margin-right: 2.762430939%;
+  }
+  
+  .gallery-item img {
+    width: 30rem;
+  }
+  
+  .img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 30rem;
+    text-align: center;
+    display: none;
+    background-color: #0e2431;
+    opacity: 75%;
+  }
+  
+  .img-title h5 {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-title p {
+    position: absolute;
+    color: #fff;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+  }
